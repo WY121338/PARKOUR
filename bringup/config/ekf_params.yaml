@@ -1,0 +1,19 @@
+# parkour_bringup/config/ekf_params.yaml
+ekf_node:
+  ros__parameters:
+    # Hardware Offsets
+    L_cam: 0.25           # Camera longitudinal offset (m)
+    f_x: 320.0            # Camera focal length in x (pixels)
+    u_c: 320.0            # Image center in x (assuming 640x480 resolution)
+    
+    # EKF Covariance Basics
+    Q_base: 0.05          # Process noise covariance base (m^2)
+    R_0: 0.10             # Base observation noise (m^2)
+    
+    # Uncertainty Penalty Weights
+    w_1: 2.0
+    w_2: 1.5
+    w_3: 0.8
+    
+    # Logic Thresholds
+    consistency_frames_N: 3
