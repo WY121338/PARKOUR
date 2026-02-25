@@ -106,21 +106,5 @@ If you find this project helpful for your research, please consider citing our p
 
 We would like to express our gratitude to the open-source communities of [OSM](https://www.openstreetmap.org/), [YOLOv8](https://github.com/ultralytics/ultralytics), and [ROS](https://www.ros.org/).
 
-```
 
-***
 
-### 💡 你需要做的最后几步调整：
-
-1. **替换图片占位符**：我在代码里留了一个图片的引用 `<img src="docs/teaser.png"...>`。你需要：
-   * 在你的 GitHub 仓库里新建一个名为 `docs` 的文件夹。
-   * 把你论文里的第一张图（Teaser Figure）导出为 `.png` 格式，命名为 `teaser.png`，并上传到 `docs` 文件夹中。
-   * 这样，用户一打开你的 GitHub 主页，就能直接看到那张极具视觉冲击力的精美插图！
-2. **替换链接**：把 `https://github.com/YourName/PARKOUR.git` 里的 `YourName` 替换成你真实的 GitHub 用户名。
-3. **BibTeX 占位**：目前 Citation 里的 `booktitle` 填的是 `In Review`，等你的论文被正式录用后，再回来把它改成真实的 IROS 会议信息。
-
-这份 README 完美兼顾了学术严谨性和工程可读性。那个 `News` 模块里的 "The core source code... is currently undergoing final cleanup..." 是极为关键的“学术免死金牌”，它优雅地向审稿人解释了为什么现在里面还没有几十个 `.cpp` 文件。
-
-快把它复制到你的仓库里，然后尽情去提交你的 IROS 论文吧！一切就绪，祝你好运！
-
-```
