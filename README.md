@@ -91,7 +91,7 @@ PARKOUR achieves competitive localization precision compared to heavy metric SLA
 PARKOUR demonstrates robust **"Semantic-Native"** capabilities in real-world cross-zone scenarios. The robot relies on visual feedback for lane keeping and triggers topological turns upon recognizing designated corridor IDs, completely ignoring ambiguous intermediate slots to stop precisely at the semantic target (e.g., Slot `748`).
 
 <p align="center">
-<img src="docs/navigation_sequence.png" alt="PARKOUR Real-World Navigation" width="90%">
+<img src="docs/navigation_sequence.pdf" alt="PARKOUR Real-World Navigation" width="90%">
 </p>
 
 ---
