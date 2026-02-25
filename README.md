@@ -1,5 +1,3 @@
-# PARKOUR
-Official implementation of the IROS paper: PARKOUR (Semantic-Native Underground Robotic Navigation)
 
 # 🚗 PARKOUR: Semantic-Native Underground Robotic Navigation
 
@@ -88,7 +86,17 @@ PARKOUR achieves competitive localization precision compared to heavy metric SLA
 
 ---
 
-## 📝 5. Citation
+## 🚙 5. Qualitative Results (Real-World Navigation)
+
+PARKOUR demonstrates robust **"Semantic-Native"** capabilities in real-world cross-zone scenarios. The robot relies on visual feedback for lane keeping and triggers topological turns upon recognizing designated corridor IDs, completely ignoring ambiguous intermediate slots to stop precisely at the semantic target (e.g., Slot `748`).
+
+<p align="center">
+<img src="docs/navigation_sequence.png" alt="PARKOUR Real-World Navigation" width="90%">
+</p>
+
+---
+
+## 📝 6. Citation
 
 If you find this project helpful for your research, please consider citing our paper:
 
@@ -102,9 +110,6 @@ If you find this project helpful for your research, please consider citing our p
 
 ```
 
-## 🤝 6. Acknowledgements
+## 🤝 7. Acknowledgements
 
 We would like to express our gratitude to the open-source communities of [OSM](https://www.openstreetmap.org/), [YOLOv11](https://github.com/ultralytics/ultralytics), and [ROS](https://www.ros.org/).
-
-
-
