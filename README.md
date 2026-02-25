@@ -41,7 +41,7 @@ The framework is built and tested on **Ubuntu 20.04** with **ROS Noetic**.
 - **C++14/17** - **ROS Noetic** (roscpp, rospy, std_msgs, sensor_msgs, nav_msgs, tf2)
 - **Eigen3** (for EKF matrix operations)
 - **OpenCV 4** (for vision processing)
-- **PyTorch & YOLOv8** (for Semantic ID recognition: YOLO-seg)
+- **PyTorch & YOLOv11** (for Semantic ID recognition: YOLO-seg)
 
 ---
 
@@ -104,7 +104,7 @@ If you find this project helpful for your research, please consider citing our p
 
 ## 🤝 6. Acknowledgements
 
-We would like to express our gratitude to the open-source communities of [OSM](https://www.openstreetmap.org/), [YOLOv8](https://github.com/ultralytics/ultralytics), and [ROS](https://www.ros.org/).
+We would like to express our gratitude to the open-source communities of [OSM](https://www.openstreetmap.org/), [YOLOv11](https://github.com/ultralytics/ultralytics), and [ROS](https://www.ros.org/).
 
 
 
